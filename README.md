@@ -12,6 +12,22 @@ Provides a twitter-like character counter for any text input or textarea.
 + Callbacks on warning, alert and success
 + Pure javascript
 
+## Usage
+
+1. Download ```countastic.js``` then link it up on your project.
+
+Example:
+    <link rel="stylesheet" type="text/css" href="js/countastic.js"> 
+
+2. Create a new instance
+
+    new Countastic({
+      countable: '#id_of_the_textarea_that_will_be_counted',
+      counter: '#id_of_the_counter',
+      button: '#id_of_the_button_that_will_be_disabled'
+    })
+
+
 ## Roadmap
 
 What's missing?
