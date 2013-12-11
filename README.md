@@ -21,12 +21,13 @@ Example:
 
 2. Create a new instance
 
+    ```shell
     new Countastic({
       countable: '#id_of_the_textarea_that_will_be_counted',
       counter: '#id_of_the_counter',
       button: '#id_of_the_button_that_will_be_disabled'
     })
-
+    ```
 
 ## Roadmap
 
