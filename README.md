@@ -23,9 +23,19 @@ Example:
 
     ```shell
     new Countastic({
-      countable: '#id_of_the_textarea_that_will_be_counted',
-      counter: '#id_of_the_counter',
-      button: '#id_of_the_button_that_will_be_disabled'
+      countable:            "#countable",     // Id of the input field that will be counted
+      counter:              "#counter",       // Id of counter
+      button:               "#counter-btn",   // Button for disable and enable callback
+      maxCount:             160,              // Maximum limit of chars
+      warningCount:         20,               // Warning point
+      strictMax:            false,            // If true, will trigger a callback
+      countDirection:       'down',           // Count down or count up
+      successClass:         'success',        // CSS class when success reached
+      warningClass:         'warning',        // CSS class when warning reached
+      alertClass:           'alert',          // CSS class when alert reached
+      onWarning:            function(){},     // Do whatever you like on warning
+      onSuccess:            function(){},     // Do whatever you like on success
+      onMaxCount:           function(){}      // Do whatever you like when exactly maxCount
     })
     ```
 
