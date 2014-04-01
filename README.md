@@ -67,5 +67,5 @@ Crafted by Robbie Marcelo © 2013
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rbmrclo/countastic/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
 
-[Website]: http://www.robbiemarcelo/countastic
+[Website]: http://www.robbiemarcelo.com/countastic
 [License]: http://opensource.org/licenses/mit-license.php
